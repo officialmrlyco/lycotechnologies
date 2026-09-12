@@ -29,6 +29,7 @@
       <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
       <nav id="site-nav" class="site-nav" aria-label="Primary navigation">
         <a href="#services">Services</a>
+        <a href="#studio">Studio</a>
         <a href="#products">Products</a>
         <a href="#process">Process</a>
         <a href="#faq">FAQ</a>
@@ -78,6 +79,31 @@
         </div>
       </section>
 
+      <!-- This image-led studio section gives prospective clients a human view of how Lyco works without presenting concepts as client case studies. -->
+      <section id="studio" class="section studio-section" aria-labelledby="studio-title">
+        <div class="section-heading split-heading">
+          <div>
+            <p class="eyebrow"><span></span> Inside the studio</p>
+            <h2 id="studio-title">People, thinking, and practical technology.</h2>
+          </div>
+          <p>Good software takes focused conversations, clear design decisions, and careful engineering. This is the work behind the work.</p>
+        </div>
+        <div class="studio-grid">
+          <figure class="studio-card studio-card-large">
+            <img src="assets/images/lyco-product-planning.jpg" alt="Software professionals reviewing a mobile product in a bright office" loading="lazy" />
+            <figcaption><span>Product planning</span><strong>Shape useful experiences</strong></figcaption>
+          </figure>
+          <figure class="studio-card">
+            <img src="assets/images/lyco-design-review.jpg" alt="A software team discussing a mobile design at a work table" loading="lazy" />
+            <figcaption><span>Design review</span><strong>Make every screen clearer</strong></figcaption>
+          </figure>
+          <figure class="studio-card">
+            <img src="assets/images/lyco-development-session.jpg" alt="Two software professionals reviewing a workflow at a desktop computer" loading="lazy" />
+            <figcaption><span>Development</span><strong>Build with purpose</strong></figcaption>
+          </figure>
+        </div>
+      </section>
+
       <!-- This supporting image keeps the site human and gives the process section a credible working context. -->
       <section id="process" class="section process-section" aria-labelledby="process-title">
         <div class="process-image"><img src="assets/images/lyco-workshop.png" alt="Software professionals planning a solution together at a whiteboard" /></div>
@@ -106,7 +132,8 @@
         <div class="product-grid">
           <a class="product-card featured-product" href="https://bingwaflash.co.ke/" target="_blank" rel="noopener"><span class="product-type">Android automation</span><h3>Bingwa Flash</h3><p>USSD automation and receipt tracking for Kenyan airtime and bundle merchants.</p><span class="product-link">Visit Bingwa Flash <b aria-hidden="true">&rarr;</b></span></a>
           <a class="product-card" href="https://airlink.co.ke/" target="_blank" rel="noopener"><span class="product-type">Airtime merchant tool</span><h3>AirLink</h3><p>An airtime-selling tool that keeps payment, customer, and execution work organised on the merchant phone.</p><span class="product-link">Visit AirLink <b aria-hidden="true">&rarr;</b></span></a>
-          <a class="product-card" href="https://play.google.com/store/apps/dev?id=5896541157261187267" target="_blank" rel="noopener"><span class="product-type">Lightweight automation</span><h3>Flash Lite</h3><p>A streamlined companion for agents who want focused local automation.</p><span class="product-link">See on Google Play <b aria-hidden="true">&rarr;</b></span></a>
+          <!-- Flash Lite has no separate public listing. Keep this an informational product card, not a redirect to the developer page. -->
+          <article class="product-card product-card-lite"><span class="product-type">Lightweight companion</span><h3>Flash Lite</h3><p>A lightweight version of Bingwa Flash for agents who want a focused local automation experience.</p><span class="product-link">Lightweight Bingwa Flash companion</span></article>
           <a class="product-card product-card-red" href="https://play.google.com/store/apps/dev?id=5896541157261187267" target="_blank" rel="noopener"><span class="product-type">More by Lyco</span><h3>Utilities in the field</h3><p>Discover Airtime Recharge Scanner, DKarl Tunnel, and more Lyco Technologies releases on Google Play.</p><span class="product-link">Open our developer page <b aria-hidden="true">&rarr;</b></span></a>
         </div>
       </section>
